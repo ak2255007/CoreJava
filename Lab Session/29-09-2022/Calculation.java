@@ -1,4 +1,7 @@
-//program for calculation
+/*program for calculation
+@auther : Amit kumar
+date : 29-09-22
+*/
 
 package CoreJava;
 import java.util.Scanner;
@@ -7,27 +10,32 @@ class calculation
 public static void main(String args[])
 {
 	
-
+// creating variable
 int a,b,c;
 int add;
 int sub;
 int multiplication;
 int division;
 
+// creating Scanner object
 Scanner sc = new Scanner(System.in);
 
+// taking first value from user
 System.out.println("enter  first value ");
 a= sc.nextInt();
 
+// taking second value from user
 System.out.println("enter  second  value ");
 b= sc.nextInt();
 
+// Giving choice to user
 System.out.println("enter 1 : if u want addition ");
 System.out.println("enter 2 : if u want substraction ");
 System.out.println("enter 3 : if u want multiplication ");
 System.out.println("enter 4 : if u want division ");
 c= sc.nextInt();
 
+// use ifelse 
 if(c==1)
 {
 add= a+b;
