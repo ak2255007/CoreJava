@@ -1,5 +1,7 @@
-// program to find largest of two numbers
-
+/* program to find largest of two numbers
+@auther : Amit kumar
+date : 29-09-22
+*/
 package CoreJava;
 import java.util.Scanner;
 
@@ -7,6 +9,7 @@ class FindLargestOfTwoNumber
 {
 	public static void main(String args[])
 	{
+		// creating Scanner object
 		Scanner sc= new Scanner (System.in);
 		
 		//taking first value from user
