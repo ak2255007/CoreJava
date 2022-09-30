@@ -1,3 +1,5 @@
+//program for calculation
+
 package CoreJava;
 import java.util.Scanner;
 class calculation
