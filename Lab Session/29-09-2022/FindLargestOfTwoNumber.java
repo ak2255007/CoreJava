@@ -1,4 +1,5 @@
-/* program to find largest of two numbers
+/* 
+Create a program to find largest of two numbers.
 @auther : Amit kumar
 date : 29-09-22
 */
