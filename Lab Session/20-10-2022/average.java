@@ -10,7 +10,7 @@ public static void main(String args[]){
 int sum=0; // initially sum = 0 
 
 Scanner sc=new Scanner(System.in);
-System.out.println("enter subjects of an array");
+System.out.println("enter total number of subjects of an array");
 int size=sc.nextInt();
 
 int marks[]=new int[size];
@@ -38,7 +38,7 @@ System.out.println(sum);
 System.out.println("average of your subjects is");
 
 // using average formula to calculate average
-int average= (sum/2);
+int average= (sum/size);
 System.out.println(average);
 }
 }
